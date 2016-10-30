@@ -1,4 +1,4 @@
-(defproject lemstart/lein-template "0.3"
+(defproject lemstart/lein-template "0.4"
   :description "A Leiningen template for starting REST API web server running on httpkit and postgres database"
   :url "https://github.com/lemaiyan/lemstart.git"
   :license {:name "Eclipse Public License"
