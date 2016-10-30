@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [http-kit "2.1.18"]
-                 [compojure "1.4.0"]
+                 [compojure "1.5.1"]
                  [yesql "0.5.0"]
                  [org.clojure/tools.macro "0.1.5"]
                  [clout "2.1.2"]
