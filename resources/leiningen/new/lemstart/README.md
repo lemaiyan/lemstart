@@ -1,4 +1,4 @@
-# {{name}}}
+# {{name}}
 
 FIXME: description
 
@@ -10,7 +10,7 @@ Download from http://example.com/FIXME.
 
 FIXME: explanation
 
-    $ java -jar {{name}}}.jar [args]
+    $ java -jar {{name}}.jar [args]
 
 ## Options
 
