@@ -1,6 +1,6 @@
 (ns
   ^{:author ""}
-  {{name}}}.app.config.core
+  {{name}}.app.config.core
   (:import (java.io FileInputStream)
            (java.util Properties))
   (:require [environ.core :refer [env]]
