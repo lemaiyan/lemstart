@@ -4,10 +4,11 @@
         [compojure.core :refer :all]
         org.httpkit.server
         {{name}}.app.config.core)
-  (:gen-class)
   (:require [{{name}}.routes :refer :all]
-            [{{name}}.app.util.core :as util]))
+            [{{name}}.app.util.core :as util]
+            [ring.middleware.reload :as reload])
+  (:gen-class))
 
 (defn -main []
-  (util/mytime (run-server (site #'all-routes) {:port (Integer/parseInt (.trim (:server-port @*props-map*)))})
+  (util/mytime (run-server (reload/wrap-reload (site #'all-routes)) {:port (Integer/parseInt (.trim (:server-port @*props-map*)))})
                :desc (format "Server Started at port %s" (.trim (:server-port @*props-map*)))))

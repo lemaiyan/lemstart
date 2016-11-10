@@ -19,6 +19,8 @@
                  [clojurewerkz/scrypt "1.2.0"]
                  [digest "1.4.4"]
                  [ring/ring-defaults "0.1.5"]
+                 [ring/ring-core "1.5.0"]
+                 [ring/ring-devel "1.5.0"]
                  [org.clojure/tools.logging "0.3.1"]
                  [org.apache.commons/commons-io "1.3.2"]
                  [overtone/at-at "1.2.0"]
