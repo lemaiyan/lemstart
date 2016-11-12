@@ -1,5 +1,5 @@
 (ns {{name}}.core
-  (:use [[compojure.route :only [files not-found]]
+  (:use [compojure.route :only [files not-found]]
         [compojure.handler :only [site]]                    ; form, query params decode; cookie; session, etc
         [compojure.core :refer :all]
         org.httpkit.server
