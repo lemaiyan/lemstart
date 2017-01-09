@@ -9,6 +9,6 @@
             [ring.middleware.reload :as reload])
   (:gen-class))
 
-(defn -main []
+(defn -main [& args]
   (util/mytime (run-server (reload/wrap-reload (site #'all-routes)) {:port (Integer/parseInt (.trim (:server-port @*props-map*)))})
                :desc (format "Server Started at port %s" (.trim (:server-port @*props-map*)))))
