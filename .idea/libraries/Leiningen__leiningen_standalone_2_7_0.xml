@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Leiningen: leiningen:standalone-2.7.0">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.lein/self-installs/leiningen-2.7.0-standalone.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
