@@ -24,6 +24,7 @@
              ["src/{{sanitized}}/app/util/phonenumbers.clj" (render "src/app/util/phonenumbers.clj" data)]
              ["src/{{sanitized}}/app/util/x2j.clj" (render "src/app/util/x2j.clj" data)]
              ["project.clj" (render "project.clj" data)]
+             [".gitignore" (render ".gitignore")]
              [".hgignore" (render ".hgignore")]
              ["app.sql" (render "app.sql" data)]
              ["README.md" (render "README.md" data)]
